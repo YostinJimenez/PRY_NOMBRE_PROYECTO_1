@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: relative;
+    margin:auto;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+}
+
+aside {
+    position: absolute;
+    top: 230px;
+    right: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-radius:5px;
+    border-bottom: 23px solid #000;
+}
+
+input:hover{
+    box-shadow: 0 0 10px #0003;
+    transition: all 0.3s ease-in-out;
+}
