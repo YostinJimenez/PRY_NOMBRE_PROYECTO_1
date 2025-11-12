@@ -48,8 +48,8 @@
 
                     <div class="mb-3">
                         <label for="nombre" class="form-label">Nombre completo:</label>
-                        <input type="text" class="form-control" id="nombre" name="nombre" required minlength="3"
-                            maxlength="50" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+" placeholder="Ej: Ana García"
+                        <input type="text"class="form-control"id="nombre"name="nombre" required minlength="3"
+                            maxlength="50"pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+"placeholder="Ej: Ana García"
                             title="Solo debe contener letras y espacios.">
                     </div>
 
@@ -80,15 +80,15 @@
 
                 </fieldset>
 
-                <fieldset class="border p-3 mb-3">
+                <fieldset class="border p-3 mb-3" id="Actividades">
                     <legend class="float-none w-auto px-2" id="Actividades">Credenciales y Género</legend>
 
                     <div class="mb-3">
                         <label for="password" class="form-label">Contraseña:</label>
                         <input type="password" class="form-control" id="password" name="password" required minlength="8"
                             pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&]).{8,}"
-                            title="Mínimo 8 caracteres, 1 mayúscula, 1 minúscula, 1 número y 1 símbolo (@$!%*?&).">
-                        <small class="form-text text-muted">
+                            title="Mínimo 8 caracteres,1 mayúscula,1 minúscula,1 número y 1 símbolo (@$!%*?&).">
+                        <small class="form-text text-muted"style="font-weight: bold;">
                             Debe tener al menos 8 caracteres, una mayúscula, una minúscula, un número y un
                             símbolo.
                         </small>
